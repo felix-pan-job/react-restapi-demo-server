@@ -1,0 +1,23 @@
+{
+  "homepage": "http://felix-pan-job.github.io/react-restapi-demo-server",
+  "name": "react-restapi-demo-server",
+  "version": "1.0.0",
+  "description": "RESTAPI SERVER",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "deploy": "gh-pages -d build",
+    "test": "jest test"
+  },
+  "author": "Felix",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.2"
+  }
+}
